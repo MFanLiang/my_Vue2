@@ -1,0 +1,12 @@
+1.多页面应用
+优点：首屏加载时间快，SEO效果好
+缺点：页面切换速度慢
+
+2. /src/assets/styles/reset.css文件的作用
+	主要用来设置重置整个框架样式的统一性
+	/src/assets/styles/border.css文件的作用
+	解决程序运行在移动手机端存在的1px边框的bug问题
+
+3.移动端开发中的上300毫秒点击延迟问题，当点击页面上button按钮后，会出现延迟300毫秒后触发对应事件的问题
+	解决方案：
+	安装第三方插件fastclick，安装命令：cnpm install fastclick --save
