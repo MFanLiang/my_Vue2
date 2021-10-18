@@ -2,18 +2,22 @@
   <div>
     <!-- <h1>Home页面</h1> -->
     <HomeHeader />
+    <HomeSwiper />
+    <div>测试键欧文总</div>
   </div>
 </template>
 
 <script>
 import HomeHeader from './components/Header.vue'
+import HomeSwiper from './components/Swiper.vue'
 
 export default {
   name: 'Home',
 
   // 注册子组件
   components: {
-    HomeHeader
+    HomeHeader,
+    HomeSwiper
   }
 }
 </script>
