@@ -10,3 +10,5 @@
 3.移动端开发中的上300毫秒点击延迟问题，当点击页面上button按钮后，会出现延迟300毫秒后触发对应事件的问题
 	解决方案：
 	安装第三方插件fastclick，安装命令：cnpm install fastclick --save
+
+4.安装 stylus 和 stylus-loader第三方插件
